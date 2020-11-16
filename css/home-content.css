@@ -1,0 +1,42 @@
+.load-more a,
+#home-email-wrapper a {
+  font-weight: 500;
+}
+
+#home-banner-container {
+  overflow: hidden;
+}
+
+#home-banner-container img, #home-banner-container .col-12 div {
+  border: 3px solid #eee;
+}
+
+#home-banner-container img {
+  max-width: 100%; 
+  max-height: 400px;
+  border-bottom: none; 
+}
+
+#home-banner-container .col-12 div {
+  border-top: none; 
+  margin-top: -3px; 
+}
+
+#home-banner-container .col-12 div h2 {
+  font-weight: 500;
+  text-transform: uppercase; 
+}
+
+#home-banner-container .col-12 div p {
+  font-style: italic;
+}
+
+#home-revslider-container, #home-new-arrivals {
+  margin: 3rem auto; 
+}
+
+@media screen and (min-width: 960px) {
+  #home-banner-container .col-md-6 div p {
+    min-height: 30px; 
+  }
+}

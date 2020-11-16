@@ -1,0 +1,250 @@
+.woocommerce-tabs .tabs .additional_information_tab,
+.woocommerce-tabs .woocommerce-Tabs-panel--additional_information,
+h2.yikes-custom-woo-tab-title {
+  display: none !important;
+}
+
+/* font-size: 0.95rem */
+.woocommerce-product-details__short-description p,
+.woocommerce-product-details__short-description ul li,
+.woocommerce-product-details__short-description ul li:before, .elementor-text-editor p, .elementor-text-editor p em, .row.ingredient-tab-individual .col-12 div:last-child p {
+  font-size: 0.95rem;
+  line-height: 1.25rem; 
+}
+
+.individual-product .woocommerce-breadcrumb {
+  text-align: center; 
+  width: 100%;
+}
+
+.entry-summary {
+  border-bottom: 1px solid #efefef;
+}
+
+.entry-summary .onsale {
+  background: #c00001;
+  color: #fff;
+  padding: 5px 10px;
+  z-index: 3;
+  margin-left: 15px;
+  position:absolute;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.entry-summary .price span {
+  font-size: 2rem; 
+  font-weight: 500;
+  color: #613d20;
+}
+
+.product_title {
+	font-size: 2.75rem;
+	line-height: 3rem; 
+}
+
+.flex-viewport {
+  height: 300px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.woocommerce-product-gallery__wrapper img {
+  width: auto;
+  height: auto;
+  max-width: 120%;
+  margin-left: -10%;
+}
+
+.flex-viewport .woocommerce-product-gallery__wrapper img {
+  width: 280px !important;
+  margin-top: -10px;
+  margin-left: calc(50% - 180px);
+}
+
+.flex-control-nav {
+  display: block; 
+  padding-left: 0;
+  text-align: center;
+}
+
+.flex-control-nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.flex-control-nav li img {
+  border: 1px solid #efefef;
+}
+
+.flex-control-nav li img.flex-active {
+  border: 1px solid #613d20;
+}
+
+.woocommerce-product-details__short-description,
+form.variations_form {
+  text-align: center;
+}
+
+.woocommerce-product-details__short-description p {
+  margin-top: 2rem;
+  margin-bottom: 2rem; 
+}
+
+.woocommerce-product-details__short-description h4 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #613d20;
+  font-weight: 500;
+}
+
+.woocommerce-product-details__short-description ul li {
+  padding-left: 2rem;
+  text-align: left; 
+}
+
+.woocommerce-product-details__short-description ul li:before {
+  content: '>';
+  position: absolute;
+  font-weight: 500;
+  margin-left: -2rem;
+}
+
+#single-product-sticky-bar {
+  background: #fcf7f2;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none; 
+}
+
+#single-product-sticky-bar * {
+  display: inline-block; 
+  vertical-align: middle; 
+}
+
+#single-product-sticky-bar div:first-child {
+  width: 50px;
+}
+
+#single-product-sticky-bar div:last-child {
+  width: calc(100% - 50px);
+}
+
+#single-product-sticky-bar img {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px;
+}
+
+#single-product-sticky-bar p {
+  font-weight: 500;
+  width: 60%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.row.ingredient-tab-list,
+.row.ingredient-tab-list strong {
+  font-size: 0.95rem;
+  line-height: 1.5rem; 
+}
+
+.row.ingredient-tab-list span {
+  padding: 1rem !important; 
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+
+.row.ingredient-tab-key h3 {
+  margin-top: 0 !important; 
+}
+
+.row.ingredient-tab-individual div {
+  display: inline-block;
+  vertical-align: top; 
+}
+
+.row.ingredient-tab-individual .col-12 div:last-child {
+  width: calc(100% - 96px);
+}
+
+.row.ingredient-tab-individual .col-12 h4 {
+  font-weight: 500;
+}
+
+.row.ingredient-tab-individual .col-12 {
+  padding-left: 0 !important; 
+  padding-right: 0 !important; 
+}
+
+@media screen and (min-width: 608px) {
+  .row.ingredient-tab-list span {
+	display: inline-block;
+	vertical-align: top;
+    width: 270px;
+    
+  }
+  .entry-summary {
+    margin-top: 2rem; 		
+  }
+  .flex-viewport {
+    height: 200px !important;
+  }
+  .woocommerce-product-gallery__wrapper img {
+    max-width: 800%;
+	margin-left: -150%;
+  }
+  .flex-viewport .woocommerce-product-gallery__wrapper img {
+    width: 174px !important;
+    margin-left: -28px;	
+  }
+  .woocommerce-product-details__short-description,
+  form.variations_form {
+    text-align: left;
+  }
+  .elementor-text-editor p {
+    margin-top: 0;
+  }
+  .scent-box.available {
+    cursor: pointer;
+  }
+  .woocommerce-product-attributes {
+    margin-bottom: 3rem;
+  }
+  .woocommerce-product-attributes th, .woocommerce-product-attributes td {
+    text-align: left;
+  }
+  .woocommerce-product-attributes th {
+    padding-right: 2rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .individual-product .woocommerce-breadcrumb {
+    text-align: left;		
+  }
+  .flex-viewport {
+    height: 300px !important;
+  }
+  .flex-viewport .woocommerce-product-gallery__wrapper img {
+    width: 243px !important;
+    margin-left: -36px;	
+  }
+  .woocommerce-product-gallery__wrapper img {
+    margin-left: calc(50% - 240px);		
+  }
+}
+@media screen and (min-width: 1440px) {	
+  .flex-viewport .woocommerce-product-gallery__wrapper img {
+    width: 280px !important;
+    margin-left: calc(50% - 180px);	
+  }
+}

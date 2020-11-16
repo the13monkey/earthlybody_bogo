@@ -1,0 +1,190 @@
+#home-email-wrapper {
+  /*background: radial-gradient(circle, #b38764 0%, #613d20 100%);*/
+  background: #613d20; 
+  padding: 4rem 3rem 6rem 3rem; 
+  margin-bottom: 5rem; 
+}
+
+#home-email-wrapper h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 4rem;
+  margin-top: 0;
+}
+
+#home-email-wrapper a {
+  border: 2px solid #fcf7f2;
+  text-transform: uppercase;
+}
+
+#home-email-wrapper a:hover {
+  background: #fcf7f2;
+  color: #613d20;
+}
+
+#home-email-wrapper img {
+  position: absolute;
+  height: auto;
+  z-index: 9; 
+}
+
+#home-email-wrapper .w-100:first-child {
+  margin-top: -3rem; 
+}
+
+#home-email-wrapper #hempseed {
+  width: 100px;
+  left: 0;
+}
+
+#home-email-wrapper #emera {
+  width: 150px;
+  right: 0; 
+  margin-top: -4rem;
+}
+
+#home-email-wrapper #marrakesh {
+  width: 150px;
+  left: 0;
+  margin-top: -1.5rem; 
+}
+
+#home-email-wrapper #cbd {
+  width: 120px;
+  right: 0; 
+  margin-top: 2rem; 
+}
+
+#home-email-wrapper .col-12 div {
+  margin-top: 3rem; 
+}
+
+#home-icons-wrapper h3 {
+  text-transform: uppercase;
+}
+
+#home-icons-wrapper .col img {
+  max-width: 100px;
+  height: auto; 
+}
+
+@media screen and (min-width: 608px) {
+  #home-email-wrapper #hempseed {
+    width: 120px;
+    margin-top: -4rem; 
+  }
+  #home-email-wrapper #emera, #home-email-wrapper #marrakesh {
+    width: 200px;
+  }
+  #home-email-wrapper #marrakesh {
+    margin-top: -5rem; 
+  }
+  #home-email-wrapper #cbd {
+    width: 150px; 
+  }
+  #home-new-arrivals .content-product-wrapper {
+    min-height: 480px; 
+  }
+  #home-email-wrapper h2 {
+    letter-spacing: 2px;		
+  }
+  #home-email-wrapper p {
+    font-size: 1.5rem;
+	letter-spacing: 1px;
+  }
+  #home-email-wrapper a {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #home-new-arrivals .content-product-wrapper {
+    min-height: 520px; 
+  }
+  #home-new-arrivals #row-arrows, 
+  #home-new-arrivals #row-arrows #firstrowbtn,
+  #home-new-arrivals #row-arrows #nextrowbtn {
+    position: absolute; 
+    border: none; 
+  }
+  #home-new-arrivals #row-arrows {
+    margin-top: -300px;
+    width: 86%;
+  }
+  #home-new-arrivals #nextrow .sale-perc {
+    top: -523px;	
+  }
+  #home-new-arrivals #row-arrows #firstrowbtn {
+    left: -2rem;
+    display: none; 
+  }
+  #home-new-arrivals #row-arrows #nextrowbtn { 
+    right: -2rem;
+  }
+  #home-new-arrivals #nextrow .content-product-wrapper {
+    margin-top: -536px;
+  }
+  #nextrow, #firstrow {
+    transition: all 0.35s linear; 
+  }
+  #nextrow {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+  #nextrow.slideInLeft {
+    transform: translateX(0);
+    opacity: 1; 
+  }
+  #home-email-wrapper {
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  #home-email-wrapper #hempseed {
+    width: 200px;
+    margin-top: -7rem; 
+    left: 4rem;
+  }
+  #home-email-wrapper #emera {
+    width: 300px;
+  }
+  #home-email-wrapper #marrakesh {
+    margin-top: -8rem;
+    left: 10rem;
+    width: 250px;  
+  }
+  #home-email-wrapper #cbd {
+    width: 200px;
+    right: 13rem;
+    margin-top: -2rem;  
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #home-new-arrivals #row-arrows {
+    width: 78%;
+  }
+  #home-email-wrapper, #home-icons-wrapper, #home-email-wrapper .w-100 {
+    min-width: 1200px;
+    width: 1200px;
+  }
+  #home-email-wrapper #hempseed {
+    left: 18rem;
+  }
+  #home-email-wrapper #emera {
+    right: 14rem; 
+  }
+  #home-email-wrapper #marrakesh {
+    margin-top: -8rem;
+    left: 10rem;
+    width: 250px;  
+  }
+  #home-email-wrapper #cbd {
+    width: 200px;
+    right: 13rem;
+    margin-top: -2rem;  
+  }
+}

@@ -1,0 +1,465 @@
+.brand-header {
+  text-align: center; 
+}
+
+.brand-header #mobile-menu {
+  float: left; 
+  margin-top: 0.75rem; 
+}
+
+.brand-header-marrakesh #mobile-menu {
+  margin-top: 3rem; 
+}
+
+.brand-header-emera #mobile-menu {
+  margin-top: 1.25rem; 
+}
+
+.brand-header #mobile-shopping-bag {
+  float: right; 
+  margin-top: -2.55rem; 
+}
+
+.brand-header-marrakesh #mobile-shopping-bag {
+  margin-top: -3.3rem;
+}
+
+.brand-header-emera #mobile-shopping-bag {
+  margin-top: -3.15rem; 
+}
+
+.brand-logo img,
+.brand-search a img {
+  width: auto;
+}
+
+.brand-search-form img {
+	width: 1rem; 
+}
+
+.brand-logo.brand-logo-cbddaily img,
+.brand-logo.brand-logo-hempseed img {
+  height: 3rem;
+}
+
+.brand-logo.brand-logo-marrakesh img {
+  height: 6rem;
+}
+
+.brand-logo.brand-logo-emera img {
+  height: 4rem;
+}
+
+.brand-nav .has-dropdown::before {
+  position: absolute; 
+  right: 1rem; 
+  content: '+';
+  font-size: 1.5rem; 
+  font-weight: 500; 
+}
+
+.brand-nav .dropdownopen::before {
+  content: '-' !important; 
+}
+ 
+.brand-nav .dropdown {
+  display: none; 
+  padding-left: 0.5rem; 
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+}
+
+.brand-nav .dropdown * {
+  display: block;
+  margin-bottom: 1rem;  
+}
+
+.brand-nav * {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.brand-nav.brand-nav-cbddaily * {
+  color: #5d7041;
+}
+
+.brand-nav.brand-nav-marrakesh * {
+  color: #a51e35;
+}
+
+.brand-nav.brand-nav-emera * {
+  color: #004c45;
+}
+
+.brand-nav.brand-nav-hempseed * {
+  color: #683816;
+}
+
+.brand-search-form img {
+  height: 1rem;
+}
+
+.brand-search-form {
+  width: 80%; 
+}
+
+.brand-search-form button {
+  border: 0;
+  background: transparent;
+  position: absolute;
+  border-right: 1px solid #613d20;
+  padding: 0.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0.2rem;
+  margin-top: 0.45rem;
+  padding-right: 0.6rem;
+}
+
+.brand-search-form input {
+  padding: 0.5rem 0.25rem 0.5rem 2.5rem;
+  border: 1px solid #613d20;
+  width: 99%;
+}
+
+.brand-search {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.brand-search a img {
+  height: 1rem;
+}
+
+.brand-search a * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.brand-search a span {
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; 
+}
+
+.hero .hero-captions {
+  width: 50%;
+  position: absolute; 
+  right: 0%; 
+  height: 46.3vw;
+}
+
+.hero-cbddaily .hero-captions,
+.hero-marrakesh .hero-captions {
+  padding: 1rem; 
+}
+
+.hero-emera .hero-captions {
+  padding-right: 0.25rem; 
+  padding-left: 1rem; 
+}
+
+.hero-hempseed .hero-captions {
+  padding-left: 0.5rem; 
+  padding-right: 0.5rem; 
+}
+
+.hero .hero-captions * {
+  color: #fff;
+}
+
+.hero-cbddaily .hero-captions * {
+  color: #3d441f;
+}
+
+.hero .hero-captions h2 {
+  text-transform: uppercase; 
+  font-size: 5vw; 
+  line-height: 6vw; 
+  border-bottom: 1px solid #fff;
+  font-weight: 900; 
+}
+
+.hero-cbddaily .hero-captions h2 {
+  border-color: #3d441f;
+}
+
+.hero .hero-captions p {
+  font-style: italic;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  font-weight: 500; 
+}
+
+.shop-category img,
+.icons-row img {
+  height: auto;
+}
+
+.shop-category p, .icons-row p {
+  font-weight: 500;
+}
+
+.brand-featured h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.2rem; 
+}
+
+.brand-featured-cbddaily h2 {
+  color: #5d7041;
+}
+
+.brand-featured-marrakesh h2 {
+  color: #a51e35;
+}
+
+.brand-featured-emera h2 {
+  color: #004c45;
+}
+
+.brand-featured-hempseed h2 {
+  color: #683816;
+}
+
+.shop-category img {
+  max-width: 100%;
+}
+
+.shop-category p {
+  color: #613d20;
+}
+
+.icons-row .col {
+  padding: auto 1.5rem;
+}
+
+.icons-row img {
+  max-width: 120px;
+}
+
+.brand-search {
+  display: none;
+}
+
+@media screen and (min-width: 608px) {
+  .brand-logo.brand-logo-cbddaily img,
+  .brand-logo.brand-logo-hempseed img {
+    height: 4rem;
+  }
+  .brand-header-cbddaily #mobile-menu {
+    margin-top: 1.25rem; 
+  }
+  .brand-header-hempseed #mobile-menu {
+    margin-top: 1.35rem;
+  }
+  .brand-header-cbddaily #mobile-shopping-bag {
+    margin-top: -3.15rem; 
+  }
+  .brand-header-hempseed #mobile-shopping-bag {
+    margin-top: -2.95rem; 
+  }
+  .hero .hero-captions p {
+    font-size: 1.2rem; 
+    line-height: 1.5rem; 
+  }
+  .hero-cbddaily .hero-captions {
+    padding-left: 2rem;
+    padding-right: 2rem; 
+  }
+  .hero-emera .hero-captions,
+  .hero-hempseed .hero-captions {
+    padding-left: 3rem; 
+    padding-right: 2rem;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+  }
+  .hero-cbddaily .hero-captions h2,
+  .hero-marrakesh .hero-captions h2,
+  .hero-emera .hero-captions h2 {
+    padding-bottom: 2rem; 
+    border-bottom-width: 3px; 
+  }
+  .featured-products .product .content-product-wrapper {
+    min-height: 450px; 
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .brand-header {
+    text-align: left; 
+  }
+  .brand-header .brand-logo,
+  .brand-header .brand-nav,
+  .brand-header .brand-nav .nav-item {
+    display: inline-block !important; 
+    vertical-align: middle; 
+  }
+  .brand-logo {
+    margin-right: 1rem; 
+  }
+  .brand-header-hempseed .brand-logo {
+	margin-right: 0.5rem; 
+  }
+  .brand-header-hempseed .brand-nav * {
+	letter-spacing: 0; 
+  }
+  .brand-header-marrakesh .brand-logo, .brand-header .brand-nav .nav-item, .brand-header .brand-nav-cbddaily .nav-item, .brand-logo-cbddaily {
+    margin-right: 0.25rem; 
+  }
+  .brand-logo.brand-logo-cbddaily img {
+	height: 3rem; 
+  }
+  .brand-logo.brand-logo-marrakesh img {
+	height: 4rem;
+  }
+  .brand-header .brand-nav .nav-item .nav-link {
+	font-size: 0.85rem;
+	letter-spacing: 0;
+  }
+  .brand-nav .has-dropdown::before {
+    display: none; 
+  }
+	.brand-header .brand-nav .nav-item {
+	margin-right: 0.5rem; 
+		border-right-style: solid;
+		border-right-width: 2px;
+		padding-right: 0.5rem;
+  }
+	.brand-header .brand-nav-cbddaily .nav-item {
+		border-right-color: #5d7041;
+	}
+	.brand-header .brand-nav .nav-item:last-child {
+		border: none !important;
+	}
+  .brand-nav .dropdown {
+    display: none; 
+    position: absolute; 
+    background: #fcf7f2; 
+    z-index: 5; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  .brand-nav .dropdown a {
+    padding: 0.25rem; 
+  }
+  .brand-nav .dropdown a:hover {
+    background: #613d20;
+    color: #fff; 
+  }
+  .brand-nav .has-dropdown:hover .dropdown {
+    display: block; 
+  }
+  #brand-search-trigger, #close-brand-search {
+    border: 0;
+    background: transparent; 
+    position: absolute; 
+    margin-top: 1rem; 
+    right: 1rem; 
+  }
+  #close-brand-search {
+    margin-top: 0.75rem;
+    text-decoration: underline; 
+  }
+  .brand-header-marrakesh #brand-search-trigger {
+    margin-top: 1.25rem; 
+  }
+  .brand-search {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none; 
+  }
+  .brand-search-form input {
+    width: auto;
+  }
+  .brand-search-form button {
+    margin-top: 0.5rem; 
+  }
+  .hero .hero-captions {
+    width: 33%; 
+    height: 26vw; 
+  }
+  .hero .hero-captions h2 {
+    font-size: 2rem; 
+    line-height: 2.25rem; 
+    padding-bottom: 0.5rem; 
+  }
+  .hero .hero-captions p {
+    font-size: 1rem; 
+  }
+  .hero-marrakesh .hero-captions {
+    padding-right: 3rem; 
+    padding-top: 1.75rem; 
+  }
+  .featured-products .product .content-product-wrapper {
+    min-height: 520px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .brand-logo {
+    margin-right: 1rem; 
+  }
+  .brand-header-marrakesh .brand-logo {
+    margin-right: 1.5rem; 
+  }
+  
+	.brand-header .brand-nav .nav-item {
+	margin-right: 1rem; 
+		border-right-style: solid;
+		border-right-width: 2px;
+  }
+	.brand-header .brand-nav-cbddaily .nav-item {
+		border-right-color: #5d7041;
+	}
+	.brand-header .brand-nav .nav-item:last-child {
+		border: none !important;
+	}
+	
+  .brand-logo.brand-logo-cbddaily img {
+	height: 4rem; 
+  }
+	.brand-logo.brand-logo-marrakesh img {
+		height: 6rem;
+	}
+	.brand-header-marrakesh #brand-search-trigger {
+    margin-top: 2.5rem; 
+  }
+  .brand-header .brand-nav .nav-item .nav-link {
+	font-size: 1rem;
+	letter-spacing: 1px;
+	padding-right: 1rem;  
+  }
+  .hero .hero-captions h2 {
+    font-size: 3vw; 
+    line-height: 3.25vw; 
+    padding-bottom: 2rem;
+  }
+  .hero-cbddaily .hero-captions {
+    padding-left: 4vw;
+    padding-right: 4vw; 
+  }
+  .hero-marrakesh .hero-captions {
+    padding-right: 5vw; 
+  }
+  .hero-emera .hero-captions, .hero-hempseed .hero-captions {
+    padding-right: 5vw; 
+  }
+  
+}

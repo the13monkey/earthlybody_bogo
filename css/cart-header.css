@@ -1,0 +1,205 @@
+#cart-empty h5 {
+  text-align: center; 
+  font-size: 1.25rem;
+  line-height: 1.5rem; 
+  color: #613d20;
+}
+#empty-actions a {
+  width: 100%;
+  text-align: center;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+  color: #613d20;
+  border: 2px solid #613d20;
+  font-weight: 500;	
+  display: block;
+}
+
+#empty-actions a:first-child {
+  background: #613d20;
+  color: #fff;
+}
+
+#empty-actions a:hover {
+  border-color: #fff;
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.checkout-button {
+  background: #613d20;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}
+
+.cart_totals {
+  border: 1px solid #efefef;
+}
+
+.cart_totals table {
+  display: table; 
+  width: 100%;
+}
+
+.cart_totals table tr, .cart_totals table td {
+  text-align: left;
+}
+
+.cart_totals table td {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important; 
+}
+
+.cart_totals table td[data-title="Shipping"] {
+  display: table-row;
+}
+
+.cart_totals tr.order-total * {
+  font-size: 1.5rem; 
+  font-weight: 500;
+}
+
+.cart_totals table tr.coupon td, .cart_totals table tr.membership-promo td, .cart_totals table tr.cart-subtotal td, .cart_totals table tr.order-total td {
+  display: table-cell;
+}
+
+.cart_totals table tr.coupon td form.checkout_coupon input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #efefef;
+}
+
+.cart_totals table tr.coupon td form.checkout_coupon button {
+  position: absolute;
+  border: 1px solid #613d20;
+  padding: 0.75rem;
+  right: 2rem;
+}
+
+.cart_totals table tr.cart-subtotal td {
+  text-align: right;
+}
+
+.cart_totals table tr.order-total td {
+  text-align: right;
+}
+
+.cart_totals table tr.shipping {
+  vertical-align: top !important;
+}
+
+.cart_totals table tr.shipping label {
+  position: absolute;
+  right: 2.15rem;
+}
+
+.cart_totals table form.woocommerce-shipping-calculator {
+  display: none; 
+}
+
+.membership-promo .promo-wrapper {
+  border-top: 1px solid #fff; 
+  border-bottom: 1px solid #fff; 
+  text-align: left; 
+}
+
+.membership-promo .promo-wrapper div {
+  display: block; 
+  margin-bottom: 1rem; 
+}
+
+a#instant-discount {
+  border: 1px solid #613d20;
+  background: #fff;
+  color: #613d20;
+  padding: 0.25rem;
+}
+
+.woocommerce-cart-form a.remove {
+  position: absolute;
+  right: 0;
+  top: 0; 
+  border: 1px solid #613d20;
+  background: #fff;
+  color: #613d20;
+  padding: 0.25rem 0.75rem;
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item {
+	border-top: 1px solid #efefef;
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item:last-child {
+	border-bottom: 1px solid #efefef;
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item img {
+  border: 1px solid #efefef;
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item .woocommerce-Price-amount:first-child {
+  margin-right: 0.5rem; 
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item .bogo-price {
+  width: 100%; 
+  text-align: right; 
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item .bogo-success-price .woocommerce-Price-amount:first-child * {
+  font-size: 1.25rem; 
+  text-decoration: line-through; 
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item .woocommerce-Price-amount:last-child * {
+  font-size: 1.5rem; 
+  font-weight: 500; 
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item div .quantity {
+  margin-top: 1rem; 
+}
+
+.woocommerce-cart-form .woocommerce-cart-form__cart-item:nth-child(even) {
+  background: #fcf7f2;
+}
+
+a.woocommerce-remove-coupon {
+  color: #c00001; 
+}
+
+div.coupon:not(.under-proceed) { 
+  display: none !important; 
+  }
+
+@media screen and (min-width: 608px) {
+  .woocommerce-cart-form a.remove {
+    top: 1rem;
+    right: 1rem; 
+  }
+  .membership-promo .promo-wrapper div {
+    display: inline-block; 
+    vertical-align: middle; 
+  }	
+  .membership-promo .promo-wrapper div:first-child {
+    width: 20%;
+  }
+  .membership-promo .promo-wrapper div:last-child {
+    width: 70%;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #empty-actions a {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle; 
+  }
+  .cart_totals table tr.cart-discount td {
+    text-align: right;
+  }
+}

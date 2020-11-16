@@ -1,0 +1,119 @@
+#promotionbox_wrapper {
+    position: fixed; 
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.55);
+    transition: all 0.5s linear; 
+    top: 0;
+    left: 0;
+}
+
+#promotionbox {
+    position: fixed; 
+    z-index: 10;
+    bottom: 0; 
+    width: 100%; 
+    left: 0; 
+    background: transparent;  
+    display: block;
+    overflow: hidden; 
+}
+
+#promotionbox_title {
+    background: #333; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    padding: 10px;
+    width: 70%; 
+    max-height: 3rem; 
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 960px) {
+    #promotionbox_title {
+        width: 30%;
+		margin-left: 35%;
+    }
+}
+
+#promotionbox_title h5, #promotionbox_title p, #promotionbox_title h5 a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    color: #fff; 
+}
+
+#promotionbox_title h5, #promotionbox_title h5 a {
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+#promotionbox p, #promotionbox #promotionexpand .action {
+    font-size: 0.75rem;
+}
+
+#promotionbox_title h5 a {
+    float: right; 
+}
+
+#promotionexpand {
+    padding: 30px auto; 
+    background: #fff; 
+    transition: all 0.25s linear; 
+    width: 100%; 
+    overflow-y: hidden; 
+    overflow-x: scroll; 
+}
+
+@media screen and (min-width: 960px) {
+    #promotionexpand {
+        overflow: hidden; 
+		max-width: 1440px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+}
+
+#promotionexpand .expanded-container {
+    min-width: 100%; 
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    display: block; 
+    width: 800px; 
+}
+
+@media screen and (min-width: 960px) {
+    #promotionexpand .expanded-container {
+        width: 100%; 
+    }
+}
+
+.thebox {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 250px; 
+    height: auto; 
+}
+
+@media screen and (min-width: 960px) {
+    .thebox {
+        width: 33%;
+    }
+}
+
+.thebox img {
+    width: 100%; 
+    height: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#promotionexpand .action {
+    color: #333; 
+    background: #fff; 
+    border: 1px solid #333; 
+    padding: 5px 10px;
+    margin-top: 1rem;
+}
